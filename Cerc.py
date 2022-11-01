@@ -24,9 +24,11 @@ class Cerc:
     # metoda aria() - va RETURNA aria,  pi=3,14159
     def aria(self):
         return (f'\nAria cercului este: {(3.14159*(self.raza**2))} ')
+
 #     metoda pentru diametru()
     def diametru(self):
         return (f'\nDiametrul cercului este: {(2*self.raza)}')
+
 #     metoda pentru circumferinta()
     def circumferinta(self):
         return (f'\nCircumferinta cercului este: {(3.14159*(self.raza*2))}')

@@ -34,6 +34,7 @@ class Angajat:
     def salariu_anual(self):
         return (f'\nSalariul anual al angajatului este {12* self.salariu}')
     # marire_salariu(procent)
+
     def marire_salariu(self, procent):
         self.salariu = self.salariu + (self.salariu*procent/100)
 

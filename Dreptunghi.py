@@ -17,15 +17,19 @@ class Dreptunghi:
         self.lungime = lungime_p
         self.latime = latime_p
         self.culoare = culoare_p
+
     # metoda descrie dreptunghi
     def descrie_dreptunghi(self):
         return (f'Dreptunghiul are lungimea {self.lungime}, latimea {self.latime}, si culoarea {self.culoare}')
+
     # metoda pentru arie
     def aria(self):
         return (f'Aria dreptunghiului este {(self.lungime*self.latime)}')
+
     # metoda pentru perimetru
     def perimetru(self):
         return (f'Perimetrul dreptunghiului este {(2*(self.lungime+self.latime))}')
+
     # metoda pentru schimba_culoarea(noua_culoare)
     def schimba_culoarea(self, culoare_noua):
         self.culoare = culoare_noua

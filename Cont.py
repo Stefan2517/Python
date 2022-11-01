@@ -11,6 +11,7 @@ creditare_cont(suma)
 '''
 
 class Cont:
+
     # atributele obiectelor de tip Cont
     def __init__(self, iban_p, titular_cont_p, sold_p):
         self.iban = iban_p
