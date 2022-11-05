@@ -34,9 +34,11 @@ class Patrat(FormaGeometrica):
     def __init__(self):
         self.__latura = 9
 
+    # folosim getter sa afisam latura
     def get_latura(self):
         return self.__latura
 
+    # folosim setter ca sa setam o alta latura
     def set_latura(self):
         self.__latura = 7
 
@@ -62,9 +64,11 @@ class Cerc(FormaGeometrica):
     def __init__(self):
         self.__raza = 3
 
+    # folosim getter sa afisam raza
     def get_raza(self):
         return self.__raza
 
+    # folosim setter ca sa setam o alta raza
     def set_raza(self):
         self.__raza = 7
 
